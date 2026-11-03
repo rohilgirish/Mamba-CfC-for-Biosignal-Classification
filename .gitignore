@@ -1,0 +1,30 @@
+# Python environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.log
+smoke/
+
+# Large Datasets & Model Artifacts (>100MB limits)
+data/processed_db5/*.h5
+*.h5
+*.mat
+*.pt
+checkpoints/*.pt
+*.zip
+
+# Keep normalization metadata and configs
+!data/processed_db5/norm_stats_db5.json
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

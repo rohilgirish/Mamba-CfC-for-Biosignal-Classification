@@ -1,0 +1,11 @@
+window_length: 60
+stride: 20
+sampling_rate: 200
+channels: 16
+num_classes: 53
+filter: "none"
+seed: 42
+train_size: 6
+val_size: 2
+test_size: 2
+

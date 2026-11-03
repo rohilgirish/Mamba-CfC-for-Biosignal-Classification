@@ -1,0 +1,61 @@
+{
+    "timestamp": "2026-11-04T00:09:07.236644",
+    "config_hash": "33f77237a51cc15aaded1f70614316f5",
+    "seed": 42,
+    "sampling_rate": 200,
+    "window_length": 60,
+    "stride": 20,
+    "package_versions": {
+        "numpy": "2.5.3",
+        "h5py": "3.16.0"
+    },
+    "subjects_processed": 10,
+    "files_processed": 30,
+    "windows_generated": {
+        "train": 186942,
+        "val": 65414,
+        "test": 65237
+    },
+    "split_summaries": {
+        "train": {
+            "num_windows": 186942,
+            "rest_count": 116351,
+            "rest_pct": 62.23909019909919,
+            "unique_classes": 53,
+            "overall_mean": -4.1640714698587544e-07,
+            "overall_std": 1.0000731945037842,
+            "subjects": [
+                9,
+                2,
+                6,
+                1,
+                8,
+                3
+            ]
+        },
+        "val": {
+            "num_windows": 65414,
+            "rest_count": 41198,
+            "rest_pct": 62.980401748861105,
+            "unique_classes": 53,
+            "overall_mean": 0.002770069520920515,
+            "overall_std": 0.5890251398086548,
+            "subjects": [
+                10,
+                5
+            ]
+        },
+        "test": {
+            "num_windows": 65237,
+            "rest_count": 40831,
+            "rest_pct": 62.58871499302543,
+            "unique_classes": 53,
+            "overall_mean": 0.0022404612973332405,
+            "overall_std": 0.8225107192993164,
+            "subjects": [
+                4,
+                7
+            ]
+        }
+    }
+}
